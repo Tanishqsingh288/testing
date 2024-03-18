@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header class="bg-primary py-2">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <button class="btn btn-outline-light sidenav-toggle">
+            <i class="fas fa-bars"></i> <!-- Font Awesome Icon -->
+        </button>
+        <div></div> <!-- Empty div for flexbox spacing -->
+        <div>
+            <button class="btn btn-outline-light mr-2">Login</button>
+            <button class="btn btn-outline-light">Sign Up</button>
+        </div>
+    </div>
+</header>
+
+<div class="sidenav" id="sidenav">
+    <button class="btn btn-block">Button 1</button>
+    <hr class="my-0">
+    <button class="btn btn-block">Button 2</button>
+    <hr class="my-0">
+    <button class="btn btn-block">Button 3</button>
+    <hr class="my-0">
+    <button class="btn btn-block">Button 4</button>
+    <hr class="my-0">
+    <button class="btn btn-block mb-0">Button 5</button> <!-- mb-0 to remove margin bottom -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body, html {
+    height: 100%; /* Ensure full height */
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.sidenav {
+    background-color: rgb(55, 90, 99); /* Background color */
+    height: calc(100% - 5.58%); /* Adjusted height */
+    width: 0; /* Initially hidden */
+    position: fixed; /* Fixed position */
+    top: 5.58%; /* Adjusted top position */
+    left: 0; /* Left edge of the viewport */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    transition: width 0.5s; /* Smooth transition for sliding effect */
+}
+
+.sidenav button {
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+}
+
+.sidenav hr {
+    border-color: white; /* Line separating texts */
+}
